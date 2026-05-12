@@ -7,7 +7,7 @@ Coming from a **Python** background, I'm using this project to dive deeper into 
 
 ## Progress Tracking
 
-- [x] **Chapter 1: A Tutorial Introduction** (Basics, Loops, Arrays)
+- [] **Chapter 1: A Tutorial Introduction** (Basics, Loops, Arrays)
 - [ ] **Chapter 2: Types, Operators, and Expressions**
 - [ ] **Chapter 3: Control Flow**
 - [ ] **Chapter 4: Functions and Program Structure**
@@ -19,7 +19,7 @@ Coming from a **Python** background, I'm using this project to dive deeper into 
 ## Compilation & Usage
 I am developing and compiling all programs on a **Raspberry Pi 4B** using the standard **GCC** compiler. This allows me to see how C interacts directly with the Linux environment on ARM architecture.
 
-## 🧠 Notes for Pythonistas
+## Notes for Pythonistas
 *   **Static Typing:** No more dynamic variable types
 *   **Explicit Memory:** Managing memory manually is a huge shift from Python's garbage collection
 *   **Speed:** It's fascinating to see how close to the hardware I can get
