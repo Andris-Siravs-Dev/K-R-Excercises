@@ -7,7 +7,7 @@ Coming from a **Python** background, I'm using this project to dive deeper into 
 
 ## Progress Tracking
 
-- [] **Chapter 1: A Tutorial Introduction** (Basics, Loops, Arrays)
+- [ ] **Chapter 1: A Tutorial Introduction** (Basics, Loops, Arrays)
 - [ ] **Chapter 2: Types, Operators, and Expressions**
 - [ ] **Chapter 3: Control Flow**
 - [ ] **Chapter 4: Functions and Program Structure**
