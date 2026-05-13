@@ -2,7 +2,7 @@
 #define MAX 1000
 
 int get_line(char line[]);
-
+void reverses(char line[], int lenght);
 int main()
 {
 	int len;
@@ -10,7 +10,8 @@ int main()
 
 	while ((len = get_line(line)) > 0)
 	{
-		printf("%s", reverses(line, len));
+		reverses(line, len);
+		printf("%s", line);
 	}
 	putchar('\n');
 
@@ -34,19 +35,20 @@ int get_line(char line[])
 	return i;
 }
 
-char reverses(char alt[], int lenght)
+void reverses(char line[], int lenght)
 {
-	int i, j;
-	char reversed[lenght];
+	int start, end;
+	start = 0;
+	end = lenght-1;
 
-	for (i = 0; (lenght-(i+2)) > 1; ++i)
-	{						// 				    0 1  2  3
-		if (alt[lenght-(i+2)] != '\n')		//lenght - 3 -> wenn ich ein array [0,1,\n,\0] habe, und es umdrehen möchte, dann möchte ich mit dem zeichen auf index 1 beginnen, die länge ist 4, also rechne ich 4 - 2, dann 4 - 3,
-			reversed[i] = alt[lenght-(i+2);//-> also doch lenght - 2 bis ich bei der 1 bin, da höre ich auf, also für lenght > 1, dann am anfang habe ich i = 2, und dann habe ich ++i, aber ich muss erst prüfen ob \n üerhaupt
-		else					// existent ist
-			reversed[i] = '\n';		// if alt[lenght - 2] != '\n' do ++lenght.
+	if (end >= 0 && line[end] == '\n')
+		--end;
+
+	while (end > start){
+		char temp = line[start];
+		line[start] = line[end];
+		line[end] = temp;
+		++start;
+		--end;
 	}
-	reversed[i+1] = '\0';
-
-	return reversed[i];
 }
