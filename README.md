@@ -1,54 +1,74 @@
 # K&R C Programming - Exercises
 
-This repository documents my journey working through "The C Programming Language" by Kernighan and Ritchie (K&R).
+My complete journey through "The C Programming Language" by Kernighan and Ritchie, with all exercises solved and documented.
 
-## About This Project
+## Who I Am
 
-I am 14 years old and decided to learn C by working through K&R, the foundational book on C programming. This repository contains all my exercise solutions, notes, and learning insights.
+I am 14 years old and coming from a Python background. I decided to learn C the proper way - by working through K&R systematically - to understand how computers really work at the hardware level.
 
-## Development Environment
+## Why K&R?
 
-Machine: Raspberry Pi 4B (ARM architecture)
-OS: Linux
-Compiler: GCC
-Workflow: Terminal-based development
+K&R is the definitive reference for learning C. It teaches you not just the syntax, but the philosophy behind the language. This is foundational knowledge that will serve me for any future work in systems programming, embedded systems, algorithms, or compiler design.
 
-## Why This Setup?
+## My Setup
 
-Working on actual embedded hardware with a command-line environment forces me to understand compilation, linking, and system-level programming. This is intentional - I want to know how C really works, not just how to write C code.
+- Hardware: Raspberry Pi 4B (ARM architecture)
+- Operating System: Linux
+- Compiler: GCC (GNU Compiler Collection)
+- Editor: Terminal + Linux
 
-## Structure
+This setup forces me to understand how C interacts directly with the OS and hardware, which is exactly what I want to learn.
 
-Each chapter has its own directory:
-- chapter_01 - A Tutorial Introduction
-- chapter_02 - Types, Operators, and Expressions
-- (more chapters coming)
+## Progress Tracking
 
-## Progress
+- [X] Chapter 1: A Tutorial Introduction
+- [ ] Chapter 2: Types, Operators, and Expressions
+- [ ] Chapter 3: Control Flow
+- [ ] Chapter 4: Functions and Program Structure
+- [ ] Chapter 5: Pointers and Arrays
+- [ ] Chapter 6: Structures
+- [ ] Chapter 7: Input and Output
+- [ ] Chapter 8: The UNIX System Interface
 
-Chapter 1: Complete
-Chapter 2: In Progress
-Chapters 3-8: Planned
+## How to Compile and Run
 
-## Learning Goals
+Each exercise is in its own file. To compile:
 
-Beyond completing all exercises, my goals are to:
+```
+gcc chapter_01/exercise_1.c -o exercise_1
+./exercise_1
+```
 
-1. Understand memory management at a deep level
-2. Master pointer operations and array manipulation
-3. Learn how C enables low-level system programming
-4. Build a foundation for embedded systems work, algorithm implementation, and compiler design
+## Code Standards
 
-## Code Style
+Each exercise includes:
+- Clear comments explaining the logic
+- Input/output examples
+- Edge case handling where relevant
+- My personal notes on what I learned
 
-All code follows K&R conventions. Comments explain the "why" behind solutions, not just the "what".
+## What I'm Learning
 
-## Next Steps After K&R
+Coming from Python, these are the biggest shifts:
 
-After completing K&R, I plan to work on:
+1. Manual Memory Management: No garbage collection. I manage memory myself.
+2. Static Typing: Every variable must be declared with a specific type.
+3. Pointers and References: Understanding addresses and dereferencing.
+4. Low-Level Thinking: How data is actually stored in memory.
+5. System Interaction: How programs interact with the OS directly.
 
-- Real embedded systems projects on Raspberry Pi
-- Implementing classic data structures and algorithms in C
-- Exploring compiler and interpreter design
+## My Goals After K&R
 
-Feedback on code style, solutions, or learning approach is welcome.
+This is my foundation. After finishing K&R, I plan to focus on three areas:
+
+1. Embedded Systems: Build real projects on Raspberry Pi with sensors and hardware control.
+2. Algorithms and Data Structures: Implement complex algorithms in C to understand their true behavior.
+3. Compiler Design: Learn how programming languages are built from the ground up.
+
+## Feedback Welcome
+
+If you see my code and have suggestions for improvement, please open an issue. I'm here to learn, not just to have "correct" code.
+
+## License
+
+MIT License - See LICENSE file for details.
