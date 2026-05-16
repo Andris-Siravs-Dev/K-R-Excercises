@@ -1,5 +1,6 @@
 # My K&R C Journey 
 
+Hello, I am 14 years old, and I already have some experience in coding with Python.
 This repository documents my progress as I work through the classic book *"The C Programming Language"* by Kernighan & Ritchie (K&R).
 
 ## Background
