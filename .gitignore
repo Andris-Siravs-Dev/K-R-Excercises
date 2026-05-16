@@ -1,0 +1,23 @@
+Compiled Object Files
+*.o
+*.obj
+
+Executable Files
+*.out
+*.exe
+a.out
+
+macOS
+.DS_Store
+
+VS Code
+.vscode/
+*.code-workspace
+
+Build artifacts
+*.a
+*.so
+
+Temporary files
+*~
+*.tmp
