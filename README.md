@@ -1,29 +1,54 @@
-# My K&R C Journey 
+# K&R C Programming - Exercises
 
-Hello, I am 14 years old, and I already have some experience in coding with Python.
-This repository documents my progress as I work through the classic book *"The C Programming Language"* by Kernighan & Ritchie (K&R).
+This repository documents my journey working through "The C Programming Language" by Kernighan and Ritchie (K&R).
 
-## Background
-Coming from a **Python** background, I'm using this project to dive deeper into low-level programming and understand how memory management and computer architecture work under the hood.
+## About This Project
 
-## Progress Tracking
+I am 14 years old and decided to learn C by working through K&R, the foundational book on C programming. This repository contains all my exercise solutions, notes, and learning insights.
 
-- [X] **Chapter 1: A Tutorial Introduction** (Basics, Loops, Arrays)
-- [ ] **Chapter 2: Types, Operators, and Expressions**
-- [ ] **Chapter 3: Control Flow**
-- [ ] **Chapter 4: Functions and Program Structure**
-- [ ] **Chapter 5: Pointers and Arrays** 
-- [ ] **Chapter 6: Structures**
-- [ ] **Chapter 7: Input and Output**
-- [ ] **Chapter 8: The UNIX System Interface**
+## Development Environment
 
-## Compilation & Usage
-I am developing and compiling all programs on a **Raspberry Pi 4B** using the standard **GCC** compiler. This allows me to see how C interacts directly with the Linux environment on ARM architecture.
+Machine: Raspberry Pi 4B (ARM architecture)
+OS: Linux
+Compiler: GCC
+Workflow: Terminal-based development
 
-## Notes for Pythonistas
-*   **Static Typing:** No more dynamic variable types
-*   **Explicit Memory:** Managing memory manually is a huge shift from Python's garbage collection
-*   **Speed:** It's fascinating to see how close to the hardware I can get
+## Why This Setup?
 
+Working on actual embedded hardware with a command-line environment forces me to understand compilation, linking, and system-level programming. This is intentional - I want to know how C really works, not just how to write C code.
 
-*Feel free to explore the code. Any feedback on my implementations is highly appreciated!*
+## Structure
+
+Each chapter has its own directory:
+- chapter_01 - A Tutorial Introduction
+- chapter_02 - Types, Operators, and Expressions
+- (more chapters coming)
+
+## Progress
+
+Chapter 1: Complete
+Chapter 2: In Progress
+Chapters 3-8: Planned
+
+## Learning Goals
+
+Beyond completing all exercises, my goals are to:
+
+1. Understand memory management at a deep level
+2. Master pointer operations and array manipulation
+3. Learn how C enables low-level system programming
+4. Build a foundation for embedded systems work, algorithm implementation, and compiler design
+
+## Code Style
+
+All code follows K&R conventions. Comments explain the "why" behind solutions, not just the "what".
+
+## Next Steps After K&R
+
+After completing K&R, I plan to work on:
+
+- Real embedded systems projects on Raspberry Pi
+- Implementing classic data structures and algorithms in C
+- Exploring compiler and interpreter design
+
+Feedback on code style, solutions, or learning approach is welcome.
