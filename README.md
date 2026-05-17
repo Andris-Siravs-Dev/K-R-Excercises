@@ -1,6 +1,7 @@
 # K&R C Programming - Exercises
 
 My complete journey through "The C Programming Language" by Kernighan and Ritchie, with all exercises solved and documented.
+(Since chapter 2 exercise 3 with comments)
 
 ## Who I Am
 
@@ -61,7 +62,7 @@ Coming from Python, these are the biggest shifts:
 
 This is my foundation. After finishing K&R, I plan to focus on three areas:
 
-1. Embedded Systems: Build real projects on Raspberry Pi with sensors and hardware control.
+1. Embedded Systems: Build real projects on Raspberry Pi with sensors and hardware control. (;
 2. Algorithms and Data Structures: Implement complex algorithms in C to understand their true behavior.
 3. Compiler Design: Learn how programming languages are built from the ground up.
 
