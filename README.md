@@ -8,7 +8,7 @@ I am 14 years old and coming from a Python background. I decided to learn C the 
 
 ## Why K&R?
 
-K&R is the definitive reference for learning C. It teaches you not just the syntax, but the philosophy behind the language. This is foundational knowledge that will serve me for any future work in systems programming, embedded systems, or compiler design.
+K&R is the definitive reference for learning C. It teaches you not just the syntax, but the philosophy behind the language. This is foundational knowledge that will serve me for any future work in systems programming.
 
 ## Development Environment
 
@@ -53,6 +53,33 @@ gcc chapter_01/exercise_1.c -o exercise_1
   - Edge case handling where relevant
   - Personal notes on what I learned
 
+## Exercise Documentation
+
+### Exercise 2-5: Character Search Function
+
+**File:** `exercise_2_05.c`
+
+This exercise implements a function that searches for characters within strings.
+
+**Macros:**
+- `MAX` (200): Maximum buffer size for input lines
+
+**Functions:**
+
+- **`get_line(char s[])`** - Reads a line from standard input into the buffer
+  - Reads characters until a newline character, EOF, or the buffer limit (MAX - 1) is reached
+  - Ensures proper null-termination
+  - Returns: The length of the string read (excluding the null terminator)
+
+- **`any(char s1[], char s2[])`** - Finds the first location in string s1 where any character from s2 occurs
+  - Mimics the standard C library function `strpbrk`, but returns an index instead of a pointer
+  - Parameters:
+    - `s1`: The main string to search through
+    - `s2`: The string containing characters to look for
+  - Returns: The index of the first match in s1, or -1 if no match is found
+
+- **`main(void)`** - Main program entry point
+
 ## Key Concepts Being Learned
 
 Coming from Python, these are the fundamental differences I'm working through:
@@ -73,7 +100,7 @@ This K&R foundation is the starting point. After completing all chapters, my foc
 
 ## Learning Philosophy
 
-I believe that understanding foundations before abstractions is essential. That's why I'm investing the time to learn C systematically and deeply, rather than jumping to higher-level languages or frameworks. Every line of code written here is to build a stronger foundation for future work.
+I believe that understanding foundations before abstractions is essential. That's why I'm investing the time to learn C systematically and deeply, rather than jumping to higher-level languages or frameworks.
 
 ## Feedback and Contributions
 
